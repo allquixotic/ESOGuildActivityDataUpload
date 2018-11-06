@@ -3,7 +3,7 @@
   "scripts": {
     "start": "babel-node src/index.js",
     "build": "webpack -p",
-    "package": "npm run build && launchui-packager --overwrite Nodepad 1.0.1 build/index.js"
+    "package": "npm run build && launchui-packager --overwrite ESOGuildStatsWatcher 0.9.0 build/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -12,11 +12,15 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "launchui-packager": "^0.1.1",
+    "react-devtools-core": "^3.4.2",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
+    "jsonpath-plus": "^0.18.0",
+    "object-hash": "^1.3.0",
     "proton-native": "^1.1.8",
+    "systray": "^1.0.5",
     "webpack": "^4.12.0"
   }
 }
