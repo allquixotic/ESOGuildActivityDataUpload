@@ -6,19 +6,22 @@
     "package": "npm run build && launchui-packager --overwrite ESOGuildStatsWatcher 0.9.0 build/index.js"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/plugin-transform-runtime": "^7.1.0",
-    "@babel/preset-env": "^7.1.5",
-    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "react-devtools-core": "^3.4.2",
-    "webpack-cli": "^3.1.2"
+    "typescript": "^3.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/node": "7.0.0",
+    "@babel/cli": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "7.1.0"
   },
   "dependencies": {
     "@google-cloud/bigquery": "^2.0.1",
-    "@babel/core": "^7.1.5",
     "@babel/runtime": "^7.1.5",
-    "@babel/node": "7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "command-line-args": "^5.0.2",
     "command-line-usage": "^5.0.5",
     "find-process": "^1.2.0",
@@ -26,7 +29,7 @@
     "object-hash": "^1.3.0",
     "proton-native": "^1.1.8",
     "systray": "^1.0.5",
-    "webpack": "^4.25.0",
+    "webpack": "^4.25.1",
     "regenerator-runtime": "^0.12.1"
   },
   "bin": {
